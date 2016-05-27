@@ -20,8 +20,8 @@ html {
 
 .bg {
     width: 100%;
-    background-color: #4B4B4B;
-    color: #000;
+    background-color: #fff;
+    color: #181818;
 }
 
 h1 {
@@ -84,7 +84,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #fff;
+    color: #B19C35;
 }
 
 .light {
@@ -139,14 +139,17 @@ a:focus {
 .navbar-custom .nav li a:active {
     outline: 0;
     background-color: transparent;
+    
 }
 
 .navbar-custom .nav li.active {
     outline: 0;
+    
 }
 
 .navbar-custom .nav li.active a {
     background-color: rgba(255,255,255,.3);
+    color: #fff;
 }
 
 .navbar-custom .nav li.active a:hover {
@@ -206,6 +209,7 @@ a:focus {
 .intro .intro-body .intro-text-nex {
     font-size: 11px;
     color: #9C9E9F;
+    margin: 0px;
 }
 
 
@@ -217,18 +221,20 @@ a:focus {
     }
 
     .intro .intro-body .brand-heading {
-        margin: 0px 0px 20px 0px;
+        margin: 0px 0px 40px 0px;
         font-size: 120px;
         letter-spacing: 3px;
     }
 
     .intro .intro-body .intro-text {
-        font-size: 26px;
+        font-size: 20px;
+        margin: 0px 0px 10px 0px;
     }
 
     .intro .intro-body .intro-text-nex {
     font-size: 15px;
-    color: #999;
+    color: #9C9E9F;
+    margin: 0px 0px 30px 0px;
     }
 
 }
@@ -236,12 +242,12 @@ a:focus {
 .btn-circle {
     width: 70px;
     height: 70px;
-    margin-top: 15px;
+    margin-top: 0px;
     padding: 7px 16px;
-    border: 1px solid #999;
+    border: 0px solid #9C9E9F;
     border-radius: 100%!important;
     font-size: 40px;
-    color: #999;
+    color: #9C9E9F;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -251,7 +257,7 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #fff;
+    color: #B19C35;
     background: rgba(255,255,255,.1);
 }
 
@@ -312,7 +318,7 @@ a:focus {
 }
 
 .contact .content-section {
-    background-color: #181818;
+    background-color: #9C9E9F;
 }
 
 #contact.content-section {
